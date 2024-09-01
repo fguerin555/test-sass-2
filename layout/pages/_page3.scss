@@ -1,0 +1,20 @@
+body {
+  background: $v-color1;
+  nav {
+    background: $v-color4;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      a {
+        color: $v-color1;
+      }
+    }
+  }
+  h1 {
+    background: $v-color2;
+    color: $v-color1;
+  }
+}

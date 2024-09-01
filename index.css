@@ -1,0 +1,89 @@
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+}
+
+body .home {
+  background: beige;
+}
+body .home nav {
+  background: green;
+}
+body .home nav ul a {
+  color: yellow;
+}
+body .home header {
+  background: blue;
+}
+body .home header h1 {
+  color: yellow;
+  background: red;
+}
+body .home header p {
+  color: red;
+  text-align: center;
+  font-style: italic;
+}
+body .home section {
+  background: transparent;
+}
+body .home section h2 {
+  color: blue;
+}
+body .home section p {
+  color: red;
+}
+
+body .page2 {
+  background: grey;
+}
+body .page2 nav {
+  background: pink;
+}
+body .page2 header h1 {
+  color: green;
+  font-style: italic;
+  background: red;
+}
+body .page2 header p {
+  color: blue;
+  background: yellow;
+}
+body .page2 section h2 {
+  font-size: 3rem;
+  font-style: italic;
+  text-transform: lowercase;
+  color: green;
+  background: yellow;
+}
+body .page2 section p {
+  color: green;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+body {
+  background: yellow;
+}
+body nav {
+  background: green;
+}
+body nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body nav ul a {
+  color: yellow;
+}
+body h1 {
+  background: blue;
+  color: yellow;
+}/*# sourceMappingURL=index.css.map */

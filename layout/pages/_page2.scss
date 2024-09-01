@@ -1,0 +1,33 @@
+body {
+  .page2 {
+    background: grey;
+    nav {
+      background: pink;
+    }
+    header {
+      h1 {
+        color: $v-color4;
+        font-style: italic;
+        background: $v-color3;
+      }
+      p {
+        color: $v-color2;
+        background: $v-color1;
+      }
+    }
+    section {
+      h2 {
+        font-size: 3rem;
+        font-style: italic;
+        text-transform: lowercase;
+        color: $v-color4;
+        background: $v-color1;
+      }
+      p {
+        color: $v-color4;
+        text-transform: capitalize;
+        text-align: center;
+      }
+    }
+  }
+}
